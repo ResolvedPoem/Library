@@ -28,6 +28,9 @@ html {
 	width: 7vh;
 	height: 7vh;
 	position: absolute;
+	font-size: 16px;
+	text-align: center;
+	text-justify: center;
 /*	border-style: double;
 	border-color: lightgray;*/
 }

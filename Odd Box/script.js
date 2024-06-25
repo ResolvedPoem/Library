@@ -356,6 +356,8 @@ function closeDragElement(event) {
       }
       if(pathProgress == 6) {
         event.target.style.backgroundColor = `#ffffff`;
+        event.target.style.color = `#000000`;
+        event.target.innerHTML = `Done!`;
         pathProgress = 0;
         nextColor.style.backgroundColor = tilePath[`move${pathProgress}`][2].style.backgroundColor;
       }
